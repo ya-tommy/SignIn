@@ -1,0 +1,65 @@
+html, body{
+	height: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color: rgb(48, 55, 61);
+	background-image: linear-gradient(to bottom left, rgb(48, 55, 61), #18252f);
+	background-image: -webkit-linear-gradient(to bottom left, rgb(48, 55, 61), #3d5c74);
+	background-image: -moz-linear-gradient(to bottom left, rgb(48, 55, 61), #3d5c74);
+	background-image: -o-linear-gradient(to bottom left, rgb(48, 55, 61), #3d5c74);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.card {
+	width: 450px;
+	/* background-color: rgb(121, 126, 133) !important; */
+	/* border-color: rgb(84, 84, 84) !important; */
+	/* border-radius: 10px !important; */
+	/* box-shadow: -4px 4px 4px 0px #202020 !important; */
+	border: none !important;
+	background-color: transparent !important;
+	color: #e2eaf0;
+}
+
+
+#btn-login {
+	margin-left: auto !important;
+	margin-right: auto !important;
+	background-color: rgb(68, 31, 188);
+	border: none;
+	transition: 0.5s;
+	box-shadow: -3px 3px 3px 0px #202020 !important;
+	border-radius: 30px;
+	width: 150px;
+}
+
+#btn-login:hover {
+	background-color: rgb(127, 123, 194);
+	/* background-image: linear-gradient(to bottom left, rgb(192, 201, 210), #8e9fbd);
+	background-image: -webkit-linear-gradient(to bottom left, rgb(192, 201, 210), #8e9fbd);
+	background-image: -moz-linear-gradient(to bottom left, rgb(192, 201, 210), #8e9fbd);
+	background-image: -o-linear-gradient(to bottom left, rgb(192, 201, 210), #8e9fbd); */
+	color: #1b2934;
+}
+
+#user, #pass {
+	background-color: transparent !important;
+	/* border: none !important; */
+	box-sizing: border-box !important;
+	border-radius: 24px;
+	border: 1px solid #e2eaf0 !important;
+	color: #e2eaf0 !important;
+	transition: 0.2s;
+	-webkit-transition: 0.2s;
+	outline: none;
+}
+
+#user:focus, #pass:focus {
+	border: 2px #e2eaf0 solid !important;
+	outline: none !important;
+}
