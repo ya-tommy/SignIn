@@ -63,3 +63,13 @@ html, body{
 	border: 2px #e2eaf0 solid !important;
 	outline: none !important;
 }
+
+#link {
+	color: #e2eaf0;
+	transition: 0.4s;
+}
+
+#link:hover {
+	color: rgb(144, 140, 222) !important; 
+	text-decoration: none;
+}
