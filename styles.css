@@ -119,6 +119,7 @@ html, body{
 
 .text1 {
 	text-align: center;
-	font-size: 3rem;
+	font-size: 2rem;
 	font-family: "Oswald", sans-serif;
+	font-weight: 600;
 }
