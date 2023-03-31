@@ -3,9 +3,9 @@ html, body{
 	font-family: 'Roboto Condensed', sans-serif;
 	background-color: rgb(48, 55, 61);
 	background-image: linear-gradient(to bottom left, rgb(48, 55, 61), #18252f);
-	background-image: -webkit-linear-gradient(to bottom left, rgb(48, 55, 61), #3d5c74);
-	background-image: -moz-linear-gradient(to bottom left, rgb(48, 55, 61), #3d5c74);
-	background-image: -o-linear-gradient(to bottom left, rgb(48, 55, 61), #3d5c74);
+	background-image: -webkit-linear-gradient(to bottom left, rgb(48, 55, 61), #18252f);
+	background-image: -moz-linear-gradient(to bottom left, rgb(48, 55, 61), #18252f);
+	background-image: -o-linear-gradient(to bottom left, rgb(48, 55, 61), #18252f);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
@@ -13,6 +13,46 @@ html, body{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	color: #e2eaf0 !important;
+}
+
+#nav {
+	margin-left: auto;
+	margin-right: auto;
+	/* background-color: #4c58d6 !important; */
+	background-color: transparent !important;
+	border-bottom: 1px solid #e2eaf0 !important;
+	width: 95%;
+	/* height: 7%; */
+}
+
+.navbar-brand {
+	color: #e2eaf0 !important;
+}
+
+.nav-item .nav-link {
+	transition: 0.5s;
+	color: #e2eaf0 !important;
+}
+
+.nav-item:hover .nav-link:hover {
+	/* background-color: #3d41749c; */
+	/* color: #a7b4df; */
+	color: rgb(144, 140, 222) !important; 
+}
+
+#login-link {
+	background-color: rgb(140, 159, 216); /* rgb(84, 202, 84) */
+	border: none;
+	transition: 0.5s;
+	/* box-shadow: -3px 3px 3px 0px #202020 !important; */
+	border-radius: 30px;
+	color: #1b2934;
+}
+
+#login-link:hover {
+	background-color: rgb(81, 78, 145); /* rgb(111, 213, 111) */
+	color: #e2eaf0;	
 }
 
 .card {
@@ -25,7 +65,6 @@ html, body{
 	background-color: transparent !important;
 	color: #e2eaf0;
 }
-
 
 #btn-login {
 	margin-left: auto !important;
@@ -72,4 +111,14 @@ html, body{
 #link:hover {
 	color: rgb(144, 140, 222) !important; 
 	text-decoration: none;
+}
+
+#content {
+	padding: 15px 0px;
+}
+
+.text1 {
+	text-align: center;
+	font-size: 3rem;
+	font-family: "Oswald", sans-serif;
 }
