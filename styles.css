@@ -124,8 +124,13 @@ html, body{
 	font-weight: 600;
 }
 
-@media (max-width: width-when-navbar-collapses) {
+@media (max-width: navbar-collapses) {
     #login-link {
 		text-align: center !important;
 	}
+}
+
+.navbar-collapse {
+	text-align: center !important;
+	align-items: center !important;
 }
