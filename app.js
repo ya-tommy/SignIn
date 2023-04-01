@@ -1,4 +1,4 @@
-var name = "Click on the \'Log In\' button";
+var name = "Click on the \"Log In\" button";
 var i = 0
 var speed = 75;
 function typedEffect() {

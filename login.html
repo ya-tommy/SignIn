@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Sign in</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -26,32 +26,51 @@
 </head>
 
 <body class="container-fluid">
-    <section class="vh-100" id="login">
-        <div class="container h-100">
-            <div class="row justify-content-center align-items-center h-100">
-                <div class="card" style="border-radius: 1.5rem;">
-                    <div class="card-body p-4">
-                        <h2 class="text-center mb-5">Sign in</h2>
-                        <form id="login_form" method=post>
-                            <input type="text" class="form-control form-control-lg mb-3" placeholder="Username"
-                                name="user" id='user'>
-                            <input type="password" class="form-control form-control-lg mb-3" placeholder="Password"
-                                name="pass" id='pass'>
-                            <div class="form-group">
-                                <div class="col-sm-offset-2 col-sm-10">
-                                    <a id="link" href="#">Forgot your password?</a>
-                                </div>
-                            </div>
-                            <input type="submit" id="btn-login" class="btn btn-primary btn-block btn-lg" value='Submit'>
-                        </form>
-                        <p id="send"></p>
-                    </div>
+    <section id="page">
+        <nav id="nav-login" class="navbar navbar-expand-lg navbar-light bg-light">
+            <a id="link" class="nav-link" href="index.html">&larr; Back to homepage</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <span>Don't have an account?</span>
+                    <a id="link" class="nav-link" href="#">Sign Up</a>
+                    </ul>
+                </form>
+            </div>
+        </nav>
+        <section class="vh-100" id="login">
+            <div class="container h-100">
+                <div class="row justify-content-center align-items-center h-100">
+                    <div class="card" style="border-radius: 1.5rem;">
+                        <div class="card-body p-4">
+                            <h2 class="text-center mb-5">Sign in</h2>
+                            <form id="login_form" method=post>
+                                <input type="text" class="form-control form-control-lg mb-3" placeholder="Username"
+                                    name="user" id='user'>
+                                <input type="password" class="form-control form-control-lg mb-3" placeholder="Password"
+                                    name="pass" id='pass'>
+                                <div class="form-group">
+                                    <div class="col-sm-offset-2 col-sm-10">
+                                        <a id="link" href="#">Forgot your password?</a>
+                                    </div>
+                                </div>
+                                <input type="submit" id="btn-login" class="btn btn-primary btn-block btn-lg"
+                                    value='Submit'>
+                            </form>
+                            <p id="send"></p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </section>
-
 </body>
 
 </html>
@@ -59,7 +78,7 @@
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script>
     $(window).ready(function () {
-        $('#login').css('display', 'none');
-        $('#login').fadeIn(2000);
+        $('#page').css('display', 'none');
+        $('#page').fadeIn(2000);
     });
 </script>
