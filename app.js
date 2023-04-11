@@ -1,4 +1,5 @@
-var name = "Click on the \"Log In\" button";
+// var name = "Click on the \"Log In\" button";
+var name = "They didn't believe in us, God did..."
 var i = 0
 var speed = 75;
 function typedEffect() {
